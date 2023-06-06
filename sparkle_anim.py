@@ -1,3 +1,7 @@
+"""
+Creates an image sequence to create a sparkling animation out of a logo. Originally created with Processing and ported to python
+"""
+
 import cairo
 import numpy as np
 import math
@@ -349,7 +353,7 @@ class Draw():
             
 if __name__ == '__main__':
     mask            = "python_1920x1080.png"
-    imgs            = "intro"
+    imgs            = "sequence"
     retry           = 15000
     spacing         = 25
     connections     = 5
